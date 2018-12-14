@@ -7,10 +7,10 @@ Aluno: Samir Souza - (UFMA - Ciência da Computação) - https://github.com/Sami
 
 Parte 1
 
-Briefing
-Sitemap
-Wireframe
-Apresentação - reveal.js
+- Briefing
+- Sitemap
+- Wireframe
+- Apresentação - reveal.js
 
 Parte 2
 
