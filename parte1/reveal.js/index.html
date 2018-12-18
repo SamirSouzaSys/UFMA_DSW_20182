@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h3>Desenvolvimento de Sistemas WEB - 2018.2</h3>
+				Aluno: Samir José Lopes Souza - 2012019134<br>
+				<small>Avaliação 01</small>
+			</section>
+			<section>
+				<h3>Briefing</h3>
+				<section>
+					<strong>
+						Dia em que ocorreu o encontro presencial?
+					</strong>
+					<br>
+					10/12
+				</section>
+				<section>
+					<strong>Cliente</strong><br>
+					Primeira Igreja Batista de São Luís - Administração
+				</section>
+				<section>
+					<strong>Setor de atuação</strong><br>
+					Administração/Religiosa
+				</section>
+				<section>
+					<strong>O que se deseja obter? (de forma geral)</strong>
+					<br>
+					Sistema para reserva de locais (salas, espaços) durante um período de tempo. Estes locais podem ter pessoas relacionadas a eles por motivos diversos (responsáveis por limpeza e/ou organização do local, usuários recorrentes daquele espaço) e elas precisam ser notificadas sobre esses acontecimentos.
+				</section>
+				<section>
+					<strong>Para quando?</strong><br>
+					Ontem
+				</section>
+				<section>
+					<strong>Quais as funcionalidades desejadas?</strong><br>
+					Gerenciamento dos locais que podem ser reservados
+					Gerenciamento das pessoas responsáveis de diversas formas pelos locais e/ou requisitantes dos locais
+					Notificações para os interessados quanto ao início e fim dos acontecimentos naquele local
+					Calendário exibindo as programações futuras e os seus respectivos locais ou exibindo os locais que estarão em uso e o acontecimento que ocorrerá
+				</section>
+				<section>
+					<strong>
+						Existe identidade visual única?
+					</strong><br>
+					Sim, cores bem definidas na instituição
+					<br>
+					<ul>
+						<li>
+							vermelho
+						</li>
+						<li>
+							branco
+						</li>
+						<li>
+							logomarca
+						</li>
+					</ul>
+				</section>
+				<section>
+					<strong>
+						Público Alvo
+					</strong><br>
+					Aqueles que costumam requisitar os espaços para o uso
+					Aqueles envolvidos com a manutenção de forma em geral desses espaços.
+					Faixas etárias envolvidas: desde adolescentes até idosos
+				</section>
+				<section>
+					<strong>
+						Tom de comunicação desejado?
+					</strong><br>
+					Próximo
+				</section>
+				<section>
+					<strong>
+						Versões do Portal
+					</strong><br>
+					Não existe nenhuma versão do sistema produzida anteriormente
+				</section>
+				<section>
+					<strong>
+						Referência base quanto ao sistema
+					</strong><br>
+					Área Pública
+					Área Administrativa
+					Um Google calendar especializado para reserva de locais
+				</section>
+				<section>
+					<strong>
+						Tendência de usabilidade
+					</strong><br>
+					Site altamente responsivo
+				</section>
+				<section>
+					<strong>
+						Cronograma
+					</strong><br>
+					Produção Geral: 1 semana<br>
+					<ol>
+						<li>
+							1 dia levantamento de requisitos
+						</li>
+						<li>
+							3 dias de desenvolvimento e testes iniciais
+						</li>
+						<li>
+							3 dias de desenvolvimento e testes finais
+						</li>
+					</ol>
+				</section>
+			</section>
+			<section>
+				<h3>Sitemap</h3><br>
+				<img src="lib/assets/imgs/DSW_Avaliação_01.png" alt="imagem do sitemap">
+			</section>
+			<section>
+				<h3>Wireframe</h3>
+				<section>
+					<blockquote>
+						<strong>Home</strong>
+						<img src="lib/assets/imgs/Wire_01_PIB-LocaisAdmin-Home.jpg" alt="imagem do Wireframe - Home">
+					</blockquote>
+				</section>
+				<section>
+					<blockquote>
+						<strong>Solicitar</strong>
+						<img src="lib/assets/imgs/Wire_02_PIB-LocaisAdmin-Solicitar.jpg" alt="imagem do Wireframe - Solicitar">
+					</blockquote>
+				</section>
+				<section>
+					<blockquote>
+						<strong>Contatos</strong>
+						<img src="lib/assets/imgs/Wire_03_PIB-LocaisAdmin-Contato.jpg" alt="imagem do Wireframe - Contatos">
+					</blockquote>
+				</section>
+				<section>
+					<blockquote>
+						<strong>Sobre o sistema e seus desenvolvedores</strong>
+						<img src="lib/assets/imgs/Wire_04_PIB-LocaisAdmin-Sobre.jpg" alt="imagem do Wireframe - Sobre">
+					</blockquote>
+				</section>
+				<section>
+					<blockquote>
+						<strong>Gerenciamento das solicitações</strong>
+						<img src="lib/assets/imgs/Wire_05_PIB-LocaisAdmin-Admin-Gerenciar Solicitações.jpg" alt="imagem do Wireframe - Administrativo - Solicitações">
+					</blockquote>
+				</section>
+				<section>
+					<blockquote>
+						<strong>Gerenciamento dos usuários</strong>
+						<img src="lib/assets/imgs/Wire_06_PIB-LocaisAdmin-Admin-Gerenciar Usuários.jpg" alt="imagem do Wireframe Administrativo - Usuários">
+					</blockquote>
+				</section>
+			</section>
+			<section>
+				<h3>Fim da parte 1 :( </h3>
+				<img src="lib/assets/gif/giphy.webp" alt="">
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+	</html>
